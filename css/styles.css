@@ -8,6 +8,7 @@
 
 a{
   text-decoration:none;
+  color:white;
 }
 
 h1,
@@ -43,5 +44,18 @@ li{
   flex:1 1 30%;
 }
 
+.blog-header{
+  margin:0 -14px 0 -14px;
+}
+
+.blog-header__padding{
+  padding:14px 0 14px 0;
+}
+
 .header-blog{
+  padding:0 14px 0 14px;
+}
+
+.header-popup{
+  display:block;
 }
