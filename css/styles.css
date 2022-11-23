@@ -49,13 +49,24 @@ li{
 }
 
 .blog-header__padding{
-  padding:14px 0 14px 0;
+/*  padding:14px 0 14px 0;*/
 }
 
 .header-blog{
-  padding:0 14px 0 14px;
+  padding:14px 14px 14px 14px;
+}
+
+.header-blog:hover{
+  background-color:blue;
 }
 
 .header-popup{
-  display:block;
+  display:inline-block;
+  background-color:blue;
+  position:relative;
+  top:-10px;
+  left:100px;
+}
+.header-blog_visible{
+  display:inline-block;
 }
