@@ -24,17 +24,24 @@ li{
   list-style:none;
 }
 
+.list-nav{
+  display:flex;
+}
 
 .blog-header{
   display:flex;
+  background-color:black;
+  color:white;
 }
 
-
 .blog-header__left{
+  flex:1 1 70%;  
+}
+
+.blog-header__right{
   display:flex;
-  
+  flex:1 1 30%;
 }
 
 .header-blog{
-  flex-direction:column;
 }
