@@ -167,20 +167,37 @@ li {
 
 .header-blog {
   padding: 14px 14px 14px 14px;
+  color:color: rgba(255, 255, 255, 0.4);
+  background-color:#202020;
 }
 
 .header-blog:hover {
   background-color: blue;
+
 }
 
 .header-popup {
-  display: inline-block;
+  display: none;
   background-color: blue;
-  position: relative;
-  top: -10px;
-  left: 100px;
+  position: absolute;
+  top: 45px;
+  left: 88px;
+  padding:10px 30px 10px 10px;
+}
+
+.header-popup li{
+	margin:0 0 9px 0;
 }
 
 .header-blog_visible {
   display: inline-block;
+}
+
+.header-blog_hidden:hover .header-popup{
+	display:block;
+}
+
+.blog-story{
+	background-color:green;
+	height:20px;
 }

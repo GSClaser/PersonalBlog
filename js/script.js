@@ -1,5 +1,5 @@
 const items=getElementByClassName(".header-blog_hidden");
-addEventListener("click",visble);
+items.addEventListener("click",visble);
 
 function visible()
 {
