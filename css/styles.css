@@ -315,10 +315,12 @@ li {
 
 .posts-blog {
   background: #202020;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
 }
 
 .description-post__press {
-  margin: 25px 27px;
+  padding: 25px 27px;
 }
 
 .text-post-title {
@@ -369,4 +371,31 @@ li {
 .post-blog__space {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.post-footer {
+  display: flex;
+
+  justify-content: center;
+}
+
+.button-footer-post {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  background: #0D0D0D;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.button-footer-post:not(:last-child) {
+  margin-right: 10px;
+}
+
+.post-footer__space {
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
