@@ -254,3 +254,41 @@ li {
   max-height: 195px;
   overflow: hidden;
 }
+
+.input-search {
+  box-sizing: border-box;
+  width: 100%;
+  background: #121212;
+  color: #D2D2D2;
+  height: 74px;
+  padding-left: 28px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.search-blog::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: #EBEBEB;
+  border-radius: 50%;
+  right: 44px;
+}
+
+.input-search::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: #3137C9;
+  border-radius: 50%;
+  /*right: 100px;*/
+  /*top: 5px;*/
+  z-index: 5;
+}
