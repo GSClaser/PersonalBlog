@@ -205,9 +205,16 @@ li {
   height: 20px;
 }
 
-.blog-layer {}
+.blog-layer {
+  max-width: 600px;
+  margin: 0 auto;
 
-.blog-reference-image {}
+}
+
+.blog-reference-image {
+
+  box-sizing: content-box;
+}
 
 .reference-blog-image {
   width: 140px;
@@ -233,10 +240,17 @@ li {
   margin-right: 17px;
 }
 
-.blog-reference-image__between {
+.blog-reference-image__between:not(:first-child) {
   margin-left: 13px;
 }
 
-.blog-layer__space {
+.image-blog__space {
   margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-blog {
+  max-height: 195px;
+  overflow: hidden;
 }
