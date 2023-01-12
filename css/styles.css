@@ -431,7 +431,68 @@ li {
   margin-right: 30px;
 }
 
+.blog {
+  background: #181818;
+}
+
+@media(min-device-width:980px) {
+
+  .admin-face-img {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url(../img/about-happy-face.jpg);
+    background-repeat: no-repeat;
+
+  }
+
+  .face-box {
+    position: relative;
+    top: -13px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .about {
+    box-sizing: border-box;
+    max-width: 300px;
+    background-color: #202020;
+    box-shadow: 5px 0px 15px rgba(5, 5, 5, 0.1);
+    background-image: url(../img/about-background.jpg);
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+
+  .description-admin {}
+
+  .about__space {
+    padding-right: 300px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .blog {
+    flex: 1 1 680px;
+  }
+
+  .header-popup {
+    left: 400px;
+  }
+}
+
+@media(max-device-width:980px) {
+  .about {
+    display: none;
+  }
+}
+
 @media(max-device-width:680px) {
+
 
   .blog-header__left>.list-nav,
   .blog-header__right>ul {
