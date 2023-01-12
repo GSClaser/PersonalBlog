@@ -437,7 +437,14 @@ li {
 
 @media(min-device-width:980px) {
 
+  .align-img {}
+
+  .wrapper-up {
+    margin-top: -50px;
+  }
+
   .admin-face-img {
+    margin: 0 auto;
     box-sizing: border-box;
     width: 100px;
     height: 100px;
@@ -454,6 +461,7 @@ li {
     left: -20px;
     width: 100px;
     height: 100px;
+
   }
 
   .about {
@@ -461,15 +469,30 @@ li {
     max-width: 300px;
     background-color: #202020;
     box-shadow: 5px 0px 15px rgba(5, 5, 5, 0.1);
-    background-image: url(../img/about-background.jpg);
-    background-repeat: no-repeat;
+
     z-index: 2;
   }
 
-  .description-admin {}
+  .description-admin {
+    text-align: center;
+  }
+
+  .admin-name {
+    color: #fff;
+    min-width: 300px;
+  }
+
+  .center-face {
+    display: block;
+
+  }
+
+  .admin-name-site {
+    color: #DEDEDE;
+  }
 
   .about__space {
-    padding-right: 300px;
+    /*padding-right: 300px;*/
   }
 
   .container {
