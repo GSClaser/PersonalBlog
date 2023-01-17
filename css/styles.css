@@ -437,6 +437,35 @@ li {
   background: #181818;
 }
 
+.admin-face-img {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-image: url(../img/about-happy-face.jpg);
+  background-repeat: no-repeat;
+
+}
+
+.face-box {
+  position: relative;
+  top: -13px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+
+}
+
+.admin-name-site {
+  color: #DEDEDE;
+}
+
+.admin-name {
+  color: #fff;
+}
+
 @media(min-device-width:980px) {
 
   .align-img {}
@@ -445,26 +474,9 @@ li {
     margin-top: -50px;
   }
 
-  .admin-face-img {
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-    background-image: url(../img/about-happy-face.jpg);
-    background-repeat: no-repeat;
 
-  }
 
-  .face-box {
-    position: relative;
-    top: -13px;
-    left: -20px;
-    width: 100px;
-    height: 100px;
 
-  }
 
   .about {
     box-sizing: border-box;
@@ -476,7 +488,7 @@ li {
   }
 
   .description-admin {
-    text-align: center;
+    margin: 0 auto;
   }
 
   .admin-name {
@@ -489,9 +501,7 @@ li {
 
   }
 
-  .admin-name-site {
-    color: #DEDEDE;
-  }
+
 
   .about__space {
     /*padding-right: 300px;*/
@@ -515,6 +525,15 @@ li {
     display: none;
   }
 
+  .wrapper-up {
+    display: flex;
+    padding: 0 15px 0 15px;
+  }
+
+  .admin-face-img {
+    position: relative;
+    top: -25px;
+  }
 }
 
 @media(max-device-width:680px) {
@@ -536,6 +555,7 @@ li {
   .blog-reference-image {
     flex: 1 1 25%;
   }
+
 }
 
 @media(max-device-width:452px) {
@@ -581,4 +601,10 @@ li {
 
 .about-mobile_hide {
   display: none;
+}
+
+.center-about {
+  align-content: center;
+  flex: 0 1 100%;
+  justify-content: center;
 }
