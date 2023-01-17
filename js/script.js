@@ -1,7 +1,6 @@
-const items=getElementByClassName(".header-blog_hidden");
-items.addEventListener("click",visble);
+const items = getElementByClassName(".list-nav>li>a");
+items.addEventListener("click", visible);
 
-function visible()
-{
-  toggle(".header-blog_visible");
+function visible() {
+  toggle(".mobile_menu");
 }

@@ -413,10 +413,12 @@ li {
 .menu-mobile__space {
   margin-bottom: 7px;
   margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 7px;
 }
 
 .blog-mobile-menu__space {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 @media(min-device-width:680px) {
@@ -512,6 +514,7 @@ li {
   .about {
     display: none;
   }
+
 }
 
 @media(max-device-width:680px) {
@@ -546,5 +549,32 @@ li {
 
   .blog-reference-image {
     flex: 1 1 50%;
+  }
+}
+
+.mobile-press-button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media(max-device-width:981px) {
+  .about {
+    display: none;
+  }
+
+  .about-mobile {
+    display: flex;
+  }
+
+  .list-nav>li>a {}
+}
+
+@media(min-device-width:981px) {
+  .about {
+    display: flex;
+  }
+
+  .about-mobile {
+    display: none;
   }
 }
