@@ -578,3 +578,7 @@ li {
     display: none;
   }
 }
+
+.about-mobile_hide {
+  display: none;
+}
