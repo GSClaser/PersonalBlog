@@ -463,6 +463,7 @@ li {
 }
 
 .admin-name {
+  margin: 0 auto;
   color: #fff;
 }
 
@@ -488,7 +489,7 @@ li {
   }
 
   .description-admin {
-    margin: 0 auto;
+    text-align: center;
   }
 
   .admin-name {
@@ -527,7 +528,7 @@ li {
 
   .wrapper-up {
     display: flex;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 p
   }
 
   .admin-face-img {
@@ -603,8 +604,84 @@ li {
   display: none;
 }
 
-.center-about {
-  align-content: center;
-  flex: 0 1 100%;
+.admin-info::after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #1C1C1C;
+
+}
+
+.admin-soc {
+  display: flex;
   justify-content: center;
+}
+
+.admin-name-site__space {
+  margin-bottom: 18px;
+}
+
+.soc-admin:not(:last-child) {
+  margin-right: 15px;
+}
+
+.admin-soc__space {
+  margin-bottom: 60px;
+
+}
+
+.admin-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 0 20px 0 20px;
+}
+
+.admin-text__space {
+  margin-bottom: 60px;
+}
+
+.admin-link {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 13px 25px 13px 25px;
+  background-color: blue;
+  color: while;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+  box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button_blue {
+  background: #3137C9;
+}
+
+.button_red {
+  background: #ED3024;
+}
+
+.center-about {
+  width: 100%;
 }
