@@ -539,6 +539,9 @@ li {
 
 @media(max-device-width:680px) {
 
+  .image-post {
+    width: 100%;
+  }
 
   .blog-header__left>.list-nav,
   .blog-header__right>ul {
