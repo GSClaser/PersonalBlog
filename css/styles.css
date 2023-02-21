@@ -724,6 +724,9 @@ li {
 }
 
 .layer-blog_enter{
+ 
+  background-color: #181818;
+  width:100%;
   font-size: 14px;
   line-height: 16px;
   border-bottom:1px solid #3F3F3F;
