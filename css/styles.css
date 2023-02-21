@@ -425,8 +425,23 @@ li {
   .blog-mobile-menu {
     display: none;
   }
+  
+  .profil-avatar{
+ /*   display:flex;*/
+    /*flex-direction:column;*/
+  }
 
+  .avatar-container{
+    flex: 0 1 43.3333%; 
+    width:43.3333%;
+    /*width:260px;*/
+  } 
 
+  .profil-form {
+    /*width:340px;*/
+    flex: 0 1 56.6666%;
+    width:56.6666%;
+  }
 
 
 }
@@ -540,7 +555,7 @@ li {
 }
 
 @media(max-device-width:680px) {
-
+  
   .image-post {
     width: 100%;
   }
@@ -781,9 +796,36 @@ li {
 } 
 
 .profil-img{
-  display:block;
-  vertical-align:center;
+  width:150px;
+  height:150px;
+/*  padding:0;*/
+}
 
-  padding:0;
+.profil-select{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+
+  color: #107EFF;
+
+
+}
+
+.profil-avatar{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:0 auto;
+  text-align:center;
+} 
+
+.avatar-container__spacing{
+  margin-bottom:20px;
+}
+.avatar-container{
+  display:inline-block;
 }
 
