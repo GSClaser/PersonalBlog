@@ -776,3 +776,14 @@ li {
   margin-bottom:20px;
 }
 
+.profil-layer{
+  justify-content:left;
+} 
+
+.profil-img{
+  display:block;
+  vertical-align:center;
+
+  padding:0;
+}
+
