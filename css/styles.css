@@ -702,3 +702,57 @@ li {
 .center-about {
   width: 100%;
 }
+
+
+.layer-blog {
+  display:flex;
+  justify-content:center;
+  font-family: 'Roboto';
+  font-style: normal;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+
+.layer-blog_title
+{
+  font-size: 21px;
+  line-height: 21px;
+
+  /* identical to box height, or 100% */
+
+}
+
+.layer-blog_enter{
+  font-size: 14px;
+  line-height: 16px;
+  border-bottom:1px solid #3F3F3F;
+  justify-content:left;
+}
+
+.layer-blog_enter:hover{
+
+  border-bottom:1px solid #107EFF;
+}
+
+.layer-blog_form {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.layer-blog-password{
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.layer-blog-submit{
+  display:inline-block;
+  padding:8px 15px; 
+  background: #3137C9;
+  box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+  border-radius: 5px;
+}
+
+.layer-wrap{
+  margin:0 auto;
+  text-align:center;
+}
