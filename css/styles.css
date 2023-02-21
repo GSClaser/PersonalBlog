@@ -427,20 +427,21 @@ li {
   }
   
   .profil-avatar{
+    position:relative;
  /*   display:flex;*/
     /*flex-direction:column;*/
   }
 
   .avatar-container{
-    flex: 0 1 43.3333%; 
-    width:43.3333%;
-    /*width:260px;*/
+    right:0;
+    position:absolute;
+    display:inline-block;
+    width:43%;
   } 
 
   .profil-form {
-    /*width:340px;*/
-    flex: 0 1 56.6666%;
-    width:56.6666%;
+    display:inline-block;
+    width:43%;
   }
 
 
